@@ -1,0 +1,325 @@
+*{
+margin: 0;
+padding: 0;
+font-family: sans-serif;
+box-sizing: border-box;
+}
+
+.class-container{
+    width: 100%;
+    height: 75px;
+    background-color: black;
+    align-items: center;
+    position: fixed; 
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+}
+.logo{
+    color: orange;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 20px 10px;
+}
+.side-nav ul  {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.side-nav ul a {
+    color: azure;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.75em;
+    padding: 15px 20px;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+.side-nav ul a:hover{
+    background-color: orange;
+    color:black;
+    border-radius: 10px;
+}
+.icons{
+    color: white;
+}
+.icons i{
+    margin-left: 20px;
+    color: black;
+    border: 2px solid orange;
+    padding: 10px;
+    background-color: orange;
+    border-radius: 100%;
+}
+
+/* body */
+.container-body{
+    width: 100%;
+    height: 100vh;
+    background:linear-gradient(to left,rgba(255, 255, 0, 0.288),aqua);
+    padding: 20px 70px;
+    
+}
+.body{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 70px;
+}
+.content-text{
+ flex-basis: 50%;
+ margin-top:20%;
+
+}
+.header_text{
+    font-size:2.5em;
+    font-weight: 1000;
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    align-items: center;
+}
+.header-p{
+ letter-spacing: 2px;
+ font-size: 2em;
+}
+.video{
+    width: 250px;
+    height: 250px
+}
+.video video{
+    width: 500px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
+}
+.button{
+    margin-top:50px ;
+    margin-left: 100px;
+    font-size: 2em;
+}
+.button-tesxt{
+
+    padding: 20px;
+    border:  none;
+    border-radius:15px ;
+    font-size: 1em;
+    text-decoration: none;
+    color: rgba(17, 13, 6, 0.911);
+    background-color: orange;
+    transition: .2s ease-in;
+}
+.button-tesxt:hover{
+    background-color: lightblue;
+}
+.more{
+    padding: 20px 30px;
+    background-color: red;
+    margin-top: 40px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+    font-weight: 1000;
+    transition: 0.2s;
+}
+.class_more{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.more:hover{
+    background-color: aqua;
+    color: red;
+}
+/* display-section*/
+.about__section{
+    width: 100%;
+    height: 100vh;
+    padding: 50px 20px;
+    background-color: black;
+
+}
+.about_container{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px 70px;
+}
+.container_section{
+    flex-basis: 27%;
+}
+
+.container_section img{
+    width: 100%;
+    height: 70vh;
+    border-radius: 20%;
+}
+.container_section img:hover{
+    background-color: black;
+}
+.x-box{
+    color: rgb(0, 0, 0);
+    margin-top: 80px;
+    font-size: 2em;
+    font-weight: 1000;
+    text-align: center;
+    background-color: rgb(2, 253, 253);
+    padding: 20px;
+    border-radius: 20px;
+}
+.about{
+    width: 80%;
+    height: 80vh;
+    padding: 70px 100px;
+}
+/* about-section */
+.about_apps{
+    font-size: 200px;
+    text-align: center;
+    position: relative;
+    color: yellow;
+    text-transform: capitalize;
+}
+.about_apps::after{
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    background-color: green;
+    background: -webkit-linear-gradient(green red brown yellow blue pink);
+    top: 0;
+    left: 50;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 20px 20px 30px green;
+    
+}
+.about_p{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    letter-spacing: 1px;
+    align-items: initial;
+    line-height: 60px;
+}
+.content-nav{
+    width: 80%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.about_content{
+    flex-basis: 40px;
+}
+.images{
+    margin-top: 200px;
+    border-radius: 20px;
+}
+/* comments */
+.comments{
+    width: 100%;
+    height: 30vh;
+    background-color: red;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    padding: 70px 40px;
+}
+.home_comments{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.content_section{
+    flex-basis: 20%;
+    margin-top: 50px;
+    transition: .2s;
+}
+.content_section p{
+    border: 2px solid black;
+    padding: 30px;
+    color: white;
+    font-size: 1.5em;
+    background-color: black;
+    border-radius: 20px;
+    letter-spacing: 1px;
+}
+.content_section p:hover{
+    box-shadow: 7px 8px 9px rgb(0, 255, 242);
+}
+
+.content_section:hover{
+    transform: translateY(-10px);
+
+}
+.content--img img{
+    width: 100px;
+    border-radius: 100%;
+}
+.content--img i{
+    color: aqua;
+    font-size: 2em;
+    border: 2px solid aqua;
+    margin-bottom: 20px;
+}
+small{
+    color: white;
+    font-size: 20px;
+}
+/* services */
+.services{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(65, 153, 153);
+    margin-top: 200px;
+    padding: 70px 70px;
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 70px;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 70px;
+}
+.section-services{
+    width: 80%;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service-header{
+    flex-basis: 40%;
+}
+.repair{
+    color: rgb(12, 10, 10);
+    margin-bottom: 50px;
+    font-size: 4em;
+    font-weight: 1000;
+    text-align: center;
+}
+.repair-content{
+    background-color:orange;
+    padding: 20px 50px;
+    font-size: 2rem;
+    border-radius: 20px;
+    letter-spacing: 1px;
+    color: black;
+    
+}
+.service-header img{
+    border-radius:20px;
+    margin-left: 300px;
+    box-shadow:10px 30px 40px yellow;
+    transform: rotate(10deg);
+}
+/* contacts */
+.contacts{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(252, 4, 4),white);
+}
