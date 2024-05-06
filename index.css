@@ -385,3 +385,31 @@ border-radius: 10px;
 .footer li{
     margin-top: 20px;
 }
+#games-collection {
+    margin: 2rem;
+  }
+  
+  .card {
+    background-color: #e04b52;
+    text-align: center;
+    border: grey solid 1px;
+    padding: 1rem;
+    width: 18rem;
+    height: 28rem;
+    display: inline-grid;
+    margin: 1rem 2rem;
+    box-shadow: 3px 4px #e04b52
+  }
+  
+  .toy-avatar {
+    justify-self: center;
+    height: 12rem;
+    width: 100%;
+  }
+
+
+  .games{
+    padding-top: 300px;
+  }
+
+  
