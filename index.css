@@ -65,7 +65,7 @@ box-sizing: border-box;
     padding: 20px 70px;
     
 }
-.body{
+#body{
     width: 80%;
     display: flex;
     align-items: center;
@@ -172,7 +172,7 @@ box-sizing: border-box;
     padding: 20px;
     border-radius: 20px;
 }
-.about{
+#about{
     width: 80%;
     height: 80vh;
     padding: 70px 100px;
@@ -220,7 +220,7 @@ box-sizing: border-box;
     border-radius: 20px;
 }
 /* comments */
-.comments{
+#comments{
     width: 100%;
     height: 30vh;
     background-color: red;
@@ -274,7 +274,7 @@ small{
     font-size: 20px;
 }
 /* services */
-.services{
+#services{
     width: 100%;
     height: 100vh;
     background-color: rgb(65, 153, 153);
@@ -317,9 +317,71 @@ small{
     box-shadow:10px 30px 40px yellow;
     transform: rotate(10deg);
 }
-/* contacts */
-.contacts{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(to right,rgb(252, 4, 4),white);
+/* contact8*/
+#footer-box{
+    height: 40vh;
+    background-color: black;
+    margin: 20px;
+    flex-wrap: nowrap;
+    display:flex;
+    justify-content: center;
+    border-radius: 20px;
+}
+.footer{
+    flex-basis: 20%;
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.footer h4{
+    color: rgb(255, 0, 0);
+    font-size: 2em;
+    margin-bottom: 20px;
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+.footer p{
+    color: aliceblue;
+    letter-spacing: 1px;
+    text-align: initial;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.icons__ i{
+color: red;
+margin-left: 30px;
+font-size: 2em;
+padding: 2px;
+border-radius: 10px;
+}
+.icons__ i:hover{
+    background-color: red;
+    color: black;
+}
+.footer li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 900;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 1.5em;
+
+}
+.footer li a:hover{
+    background-color: black;
+    color: white;
+
+}
+.footer ul{
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(145, 127, 127);
+
+}
+.footer li{
+    margin-top: 20px;
 }
